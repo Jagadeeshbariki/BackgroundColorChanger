@@ -1,0 +1,43 @@
+header p{
+    
+    text-align: center;
+    font-weight: bolder;
+    font-size: 500%;
+    text-shadow: 5px 5px 20px;
+    background-image: url("https://media.tenor.com/5RBtkgHRpvcAAAAM/color-spiral.gif");
+    padding: 3%;
+    color: transparent;
+    background-clip: text;
+    
+}
+#header{
+    background-color: lightskyblue;
+    border-radius: 20px;
+
+}
+
+
+body{
+    border: 5px black solid;
+    height: 100%;
+    width: 100%;
+}
+
+.img{
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px){
+
+    header p{
+        font-size: 250%;
+        padding:5%;
+
+    }
+
+   
+    main img{
+        aspect-ratio: 0.1/0.1; 
+        border-radius: 10px;
+    }
+}

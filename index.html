@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BackGround Changer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    
+</head>
+<body id="body" class="container-fluid">
+    <header id="header">
+        <p >Background Color Changer</p>
+    </header>
+    <main class="text-center ">
+        <h1 class="bg-primary p-2 m-2">Select Your Custrmized Background For You Page</h1>
+
+        <div id="buttons" class="bg-warning p-3 text-center" >
+            <div class="btn-group " role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" onclick="dark()" >
+                <label class="btn btn-outline-primary" for="btnradio1">Dark Mode</label>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" onclick="bright()" checked>
+                <label class="btn btn-outline-primary" for="btnradio2">Bright Mode</label>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" onclick="changeBackground()">
+                <label class="btn btn-outline-primary" for="btnradio3">Random color</label>
+              </div>
+        </div>
+
+
+        <img src="https://previews.123rf.com/images/itana/itana1705/itana170500149/78082030-colorful-abstract-background-with-striped-drops-splash-vector-color-design-graphic-illustration-a4.jpg" alt=" color Image"  class="rounded img-thumbnail img-fluid">
+    </main>
+
+    <footer>
+        <div class="d-flex bg-info p-2 flex-column text-center ">
+            <p>&copy; By Jagadeesh</p>
+            <p><a href="https://mail.google.com/">vyomanautjagadeesh@gmail.com</a></p>
+
+
+            <div class="links d-flex flex-row  justify-content-evenly text-center">
+                <a href="https://www.linkedin.com/in/jagadeesh-bariki-883b1122a/"><img class="img" src="https://cdn-icons-png.flaticon.com/128/220/220586.png" alt="LInked In"></a>
+
+                <a href="https://github.com/Jagadeeshbariki?tab=repositories"><img class="img" src="https://cdn-icons-png.flaticon.com/128/1051/1051275.png" alt="Git Hub"></a>
+
+                <a href="https://www.google.com/maps/place/Pedda+Harivanam,+Andhra+Pradesh+518308/@15.624734,77.0590004,14z/data=!3m1!4b1!4m6!3m5!1s0x3bb7b198a731eac7:0x74b91af4fd955ff3!8m2!3d15.6207125!4d77.0909809!16s%2Fm%2F01317vjv?entry=ttu"><img class="img" src="https://cdn-icons-png.flaticon.com/128/1865/1865269.png" alt="Location"></a>
+            </div>
+
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
