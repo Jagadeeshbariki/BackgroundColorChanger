@@ -37,7 +37,17 @@ body{
 
    
     main img{
-        aspect-ratio: 0.1/0.1; 
-        border-radius: 10px;
+        width: 50%;
     }
+
+    .img{
+        width: 30%;
+
+    }
+    .links{
+        
+        padding: 2px;
+    }
+
+
 }
